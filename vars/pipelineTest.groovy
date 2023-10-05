@@ -1,4 +1,4 @@
-def call() {
+def nginxInstaller() {
   pipeline {
     agent { label 'worker1' }
     
